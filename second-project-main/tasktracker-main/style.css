@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+button {
+    cursor: pointer;
+}
+
+.root {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tracker {
+    width: 30%;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.tracker__header {
+    height: 28px;
+    background-color: #FFDC40;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.tracker__content {
+    padding: 13px 22px 19px 28px;
+}
+
+.tracker__title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.tracker__sort-area {
+    display: flex;
+    justify-content: end;
+    margin-top: 16px;
+}
+
+.tracker__sort {
+    color: #C4C4C4;
+    background-color: inherit;
+    border: none;
+    font-size: 25px;
+}
+
+.tracker__sort:hover {
+    color: #000000;
+}
+
+.tracker__list {
+    margin-top: 11px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-height: 200px;
+}
+
+.tracker__item {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tracker__input {
+    border: none;
+    outline: none;
+    width: 80%;
+}
+
+.tracker__delete {
+    width: 20px;
+    height: 20px;
+    background-color: inherit;
+    border: 1px solid #C4C4C4;
+    border-radius: 50%;
+    color: #C4C4C4;
+}
+
+.tracker__delete:hover {
+    border: 1px solid #833AE0;
+    background-color: #833AE0;    
+    color: #fff;
+}
+
+.tracker__add {
+    margin: 0 auto;
+    margin-top: 18px;
+    background-color: #833AE0;
+    border: none;
+    border-radius: 71px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tracker__add-plus {
+    padding: 12px 20px;
+    background-color: #9953F1;
+    border-radius: inherit;
+}
+
+.tracker__add-text {
+    padding: 0 30px 0 12px;
+}
